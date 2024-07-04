@@ -6,10 +6,10 @@ const useBludo = () => {
     const [counter,setCount] = useState(0);
 
     const increase = () => {
-        setCount((prevState)=>prevState+1);
+        setCount((prevState)=>prevState+1 > max ? prevState : prevState+1);
       }
     const decrease = () => {
-        setCount((prevState)=>prevState-1);
+        setCount((prevState)=>prevState-1 < min ? prevState : prevState-1);
       }
     return {counter,increase,decrease}
     };
