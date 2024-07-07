@@ -1,5 +1,7 @@
 import { Menu } from "./menu"
-import { Review } from "./review.jsx"
+//import { Review } from "./review.jsx"
+import { Review } from "../reviews/component";
+import { ReviewForm } from "../app/review-form/component";
 
 
 export const Restaurant = ({ name, menu, reviews }) => {
@@ -10,7 +12,12 @@ export const Restaurant = ({ name, menu, reviews }) => {
         {menu?.length ?  menu.map(({id,name,price,ingredients})=> <Menu key={id} name={name} price={price} ingredients={ingredients}/>) : <div>-</div>}
       <h3>REVIEWS</h3>
         {reviews?.length ?  reviews.map(({id,user,rating,text}) => <Review key={id} user = {user} rating = {rating} text={text}/>) : <div>-</div>}
+        <div style={{display: 'flex', justifyContent:"center", alignItems: 'center'}}>
+          <text><b>Отзыв:</b></text>
+          </div>
+      <ReviewForm />
       <hr></hr>
+      
    </div>
    );
 };
