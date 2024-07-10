@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(188, 188, 188);
+  }
+  
+  #rest {
+  font: 1.2em Book Antiqua;
+  color: #8f0707;
+  }
+  
+  h1 {
+    margin-top: 30px;
+    margin-left: 15%;
+    font: 3em Book Antiqua Black;
+    color: #000000;
+  }
+  
+  #ScrollBar {
+    height: 10px;
+    background: goldenrod;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 0%;
+    margin-top: 0px;
+  }
+  
+  div {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .tabButton {
+    padding: 10px 50px;
+    text-decoration: none;
+    color: #fffb19;
+    border: 30;
+    border-radius: 1rem;
+    background: 0 0;
+    margin-left: 50px;
+    font: 2em Book Antiqua;
+    background-color: rgb(12, 7, 1);
+  }
+  
+  button {
+    background-color: rgb(252, 248, 40);
+  }
