@@ -1,0 +1,20 @@
+.reviewContainer {
+    display: grid;
+    gap: 10px;
+    width: 200px;
+  }
+  
+  .headerText {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .counter {
+    display: flex;
+    gap: 5px;
+  }

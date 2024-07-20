@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 0 0 1em green, 0 0 0.2em green;
+    margin-bottom: 50px;
+  }
+  
+  .img {
+    width: 80px;
+    box-shadow: 7px 5px 15px rgb(34, 4, 207);
+  }
+  
+  .headerText {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font: 1.2em Book Antiqua;
+  }
