@@ -1,0 +1,14 @@
+.button {
+    height: 30px;
+    width: 85px;
+  }
+  
+  .lightButton {
+    color: black;
+    background-color: aquamarine;
+  }
+  
+  .darkButton {
+    color: rgb(241, 245, 40);
+    background-color: rgb(11, 78, 56);
+  }

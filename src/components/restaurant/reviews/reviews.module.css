@@ -1,0 +1,12 @@
+.reviewTextGridWithGap {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .reviewTextGrid {
+    display: grid;
+  }
+  
+  .reviewRatingColor {
+    color: rgb(253, 11, 11);
+  }

@@ -1,0 +1,8 @@
+.restaurantButtons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .restaurantButton {
+    border: 2px dashed;
+  }

@@ -1,0 +1,45 @@
+.customButton {
+    border: 1px solid;
+  }
+  
+  .wideButton {
+    width: 60px;
+  }
+  
+  .defaultColorLight {
+    color: black;
+    background-color: rgb(167, 226, 191);
+  
+    &:disabled {
+      background-color: gray;
+    }
+  }
+  
+  .defaultColorDark {
+    color: white;
+    background-color: rgb(10, 83, 32);
+  
+    &:disabled {
+      background-color: gray;
+    }
+  }
+  
+  .redColorLight {
+    color: black;
+    background-color: rgb(241, 144, 144);
+  }
+  
+  .redColorDark {
+    color: white;
+    background-color: rgb(175, 16, 16);
+  }
+  
+  .blueColorLight {
+    color: black;
+    background-color: lightblue;
+  }
+  
+  .blueColorDark {
+    color: white;
+    background-color: rgb(26, 9, 102);
+  }
